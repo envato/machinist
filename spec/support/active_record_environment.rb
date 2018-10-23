@@ -2,7 +2,7 @@ require 'active_record'
 require 'machinist/active_record'
 
 ActiveRecord::Base.establish_connection(
-  :adapter  => "mysql",
+  :adapter  => "mysql2",
   :database => "machinist",
   :username => "root",
   :password => ""
